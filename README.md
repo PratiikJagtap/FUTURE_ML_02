@@ -1,6 +1,7 @@
 # 🎯 Attrition Prediction Engine  
 **Production-ready Machine Learning application for employee retention analysis**
 
+Live Demo: https://attrition-prediction-engine.streamlit.app
 ---
 
 ## 🔍 What This Project Demonstrates

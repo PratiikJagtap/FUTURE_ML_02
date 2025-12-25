@@ -222,7 +222,6 @@ if st.button("🔍 Analyze Churn Risk"):
     prob = model.predict_proba(input_scaled)[0, 1]
     prediction = int(prob >= THRESHOLD)
 
-    st.markdown('<div class="result-card">', unsafe_allow_html=True)
 
     st.metric("Churn Probability", f"{prob:.1%}")
 
